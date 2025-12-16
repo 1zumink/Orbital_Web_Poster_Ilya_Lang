@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #131312;
+  justify-content: center;
+}
+.AllAnimations {
+  display: block;
+}
+.PartyScroll1 {
+  width: 50vw;
+  height: 5vw;
+  background-image: url("../Images/PartyScroll1.svg");
+  animation: PartyScroll1 2s infinite linear;
+  background-size: 50vw;
+  background-repeat: no-repeat;
+  margin: 2vw;
+}
+.Tasks {
+  width: 267px;
+  height: 117px;
+  background-image: url("../Images/Tasks.svg");
+  animation: Tasks 2s infinite steps(1);
+  background-repeat: no-repeat;
+  margin: 2vw;
+}
+.PrintTask {
+  width: 267px;
+  height: 29px;
+  background-image: url("../Images/PrintTask.svg");
+  animation: PrintTask 1.5s infinite steps(1);
+  background-repeat: no-repeat;
+  margin: 2vw;
+}
+.StarsFlash {
+  width: 385px;
+  height: 311px;
+  background-image: url("../Images/StarsFlash.svg");
+  animation: StarsFlash 1s infinite steps(1);
+  background-repeat: no-repeat;
+  margin: 2vw;
+}

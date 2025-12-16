@@ -1,0 +1,50 @@
+@keyframes PartyScroll1 {
+  0% {
+    background-position-x: -20vw;
+  }
+  100% {
+    background-position-x: 20vw;
+  }
+}
+@keyframes Tasks {
+  0% {
+    background-position: 0px;
+  }
+  40% {
+    background-position: -267px;
+  }
+  50% {
+    background-position: -534px;
+  }
+  60% {
+    background-position: -801px;
+  }
+  70% {
+    background-position: -1068px;
+  }
+  80% {
+    background-position: -1335px;
+  }
+}
+@keyframes PrintTask {
+  0% {
+    background-position: 0px;
+  }
+  50% {
+    background-position: -267px;
+  }
+}
+@keyframes StarsFlash {
+  0% {
+    background-position: 0px;
+  }
+  25% {
+    background-position: -385px;
+  }
+  50% {
+    background-position: -770px;
+  }
+  75% {
+    background-position: -1155px;
+  }
+}
