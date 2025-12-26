@@ -133,7 +133,6 @@
     background-size: 300vw;
     animation: DateMobile 1s steps(3) infinite;
     top: 182.78vw;
-
     left: 0;
     z-index: 1;
   }
@@ -274,11 +273,53 @@
   #Star7,
   #Star8 {
     position: absolute;
-    width: 2.03vw;
-    height: 2.03vw;
+    width: 4.06vw;
+    height: 4.06vw;
     background-image: url("../Images/StarsShrink.svg");
     background-repeat: no-repeat;
-    background-size: 8.13vw;
-    animation: Stars 1s steps(4) infinite;
+    background-size: 16.26vw;
+    animation: StarsMobile 1s steps(4) infinite;
+  }
+  #Star2,
+  #Star3 {
+    top: 19vw;
+  }
+  #Star2 {
+    right: 2vw;
+  }
+  #Star3 {
+    right: 6vw;
+  }
+  #Star4 {
+    right: 45vw;
+  }
+  #Star5 {
+    right: 41vw;
+  }
+  #Star4,
+  #Star5 {
+    bottom: 101vw;
+  }
+  #Circles1 {
+    position: absolute;
+    right: 5vw;
+    bottom: 5vw;
+    width: 10.46vw;
+    height: 4.54vw;
+    background-image: url("../Images/circles1.svg");
+    background-repeat: no-repeat;
+    background-size: 41.88vw;
+    animation: circles1Mobile 1s steps(4) infinite;
+  }
+  #Circles2 {
+    position: absolute;
+    left: 5vw;
+    bottom: 5vw;
+    width: 10.46vw;
+    height: 4.54vw;
+    background-image: url("../Images/circles2.svg");
+    background-repeat: no-repeat;
+    background-size: 41.88vw;
+    animation: circles2Mobile 1s steps(4) infinite;
   }
 }

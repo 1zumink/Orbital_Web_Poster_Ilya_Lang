@@ -6,6 +6,14 @@
     background-position: -8.13vw 0;
   }
 }
+@keyframes StarsMobile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -16.26vw 0;
+  }
+}
 @keyframes Starcircle {
   0% {
     transform: rotate(0deg);
@@ -93,6 +101,22 @@
   }
   100% {
     background-position: -20.94vw 0;
+  }
+}
+@keyframes circles1Mobile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -41.88vw 0;
+  }
+}
+@keyframes circles2Mobile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -41.88vw 0;
   }
 }
 @keyframes Bar {
