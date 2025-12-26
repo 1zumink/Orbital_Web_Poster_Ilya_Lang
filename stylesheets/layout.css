@@ -3,41 +3,363 @@
 }
 body {
   background-color: #131312;
-  justify-content: center;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: "Onder";
 }
-.AllAnimations {
+.block1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+#NGbug {
+  width: 50vw;
+  height: 47.66vw;
+  background-image: url("../Images/NGbug.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  animation: NGbug 1s steps(2) infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Starcircle {
+  width: 39.45vw;
+  height: 39.45vw;
+  background-image: url("../Images/starcircle.svg");
+  background-size: 39.45vw;
+  background-repeat: no-repeat;
+  animation: Starcircle 7s linear infinite;
+}
+#LavaLamp {
+  margin: -0.2vw;
+}
+#LavaLamp img {
+  width: 25vw;
+  height: 47.66vw;
+}
+#TasksXStars {
+  display: flex;
+  flex-direction: column;
+  width: 25.78vw;
+  height: 47.66vw;
+  justify-content: center;
+  align-items: center;
+}
+#Tasks {
+  width: 20.86vw;
+  height: 18.83vw;
+  background-image: url("../Images/Tasks.svg");
+  background-repeat: no-repeat;
+  background-size: 125.16vw;
+  animation: Tasks 1s steps(6) infinite;
+  margin-bottom: 4vw;
+}
+#StarsFlash {
+  width: 25.23vw;
+  height: 18.98vw;
+  background-image: url("../Images/StarsFlash.svg");
+  background-repeat: no-repeat;
+  background-size: 151.41vw;
+  animation: StarsFlash 1s steps(6) infinite;
+}
+/* #Tasks {
+  width: 25.78vw;
+  height: 47.66vw;
+  background-image: url("../Images/Tasks.svg");
+  background-repeat: no-repeat;
+  background-size: 154.2vw;
+  animation: sixstep 1.5s steps(6) infinite;
+} */
+#Date {
+  position: absolute;
+  width: 48.28vw;
+  height: 13.75vw;
+  background-image: url("../Images/Date.svg");
+  background-repeat: no-repeat;
+  background-size: 144.84vw;
+  animation: Date 1s steps(3) infinite;
+  top: 40.78vw;
+  left: 25.86vw;
+  z-index: 1;
+}
+#Grid {
+  position: absolute;
+  width: 100vw;
+  height: 95.47vw;
+  background-image: url("../images/Grid1.svg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.block2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+#PlanetsXLava {
+  display: flex;
+  flex-direction: row;
+  width: 50.2vw;
+  height: 47.66vw;
+}
+#PlanetsFound {
+  width: 25.78vw;
+  height: 47.66vw;
+  background-image: url("../Images/PlanetsFound.svg");
+  background-repeat: no-repeat;
+  background-size: 154.2vw;
+  animation: sixstep 1.5s steps(6) infinite;
+}
+#Filters {
+  width: 50vw;
+  height: 47.66vw;
+  background-image: url("../Images/Filters.svg");
+  background-repeat: no-repeat;
+  background-size: 200vw;
+  animation: Filters 1s steps(4) infinite;
+}
+#Star1 {
+  background-color: #131312;
+}
+#Star1,
+#Star2,
+#Star3,
+#Star4,
+#Star5,
+#Star6,
+#Star7,
+#Star8 {
+  position: absolute;
+  width: 2.03vw;
+  height: 2.03vw;
+  background-image: url("../images/Stars.svg");
+  background-repeat: no-repeat;
+  background-size: 8.13vw;
+  animation: Stars 1s steps(4) infinite;
+}
+#Star2,
+#Star3 {
+  top: 0.78vw;
+}
+#Star2 {
+  left: 20.16vw;
+}
+#Star3 {
+  left: 22.97vw;
+}
+#Star4 {
+  left: 0.78vw;
+}
+#Star5 {
+  left: 3.59vw;
+}
+#Star4,
+#Star5 {
+  bottom: 0.78vw;
+}
+#Circles1 {
+  position: absolute;
+  right: 1.56vw;
+  bottom: 1.56vw;
+  width: 5.23vw;
+  height: 2.27vw;
+  background-image: url("../Images/circles1.svg");
+  background-repeat: no-repeat;
+  background-size: 20.94vw;
+  animation: circles1 1s steps(4) infinite;
+}
+#Circles2 {
+  position: absolute;
+  right: 43.2vw;
+  bottom: 1.56vw;
+  width: 5.23vw;
+  height: 2.27vw;
+  background-image: url("../Images/circles2.svg");
+  background-repeat: no-repeat;
+  background-size: 20.94vw;
+  animation: circles2 1s steps(4) infinite;
+}
+.block3 {
+  overflow-x: hidden;
+  margin-top: 2.97vw;
+  margin-bottom: 2.97vw;
+}
+#Planetstroke {
+  display: flex;
+  animation: Planetstroke 5s linear infinite;
+}
+#Planetstroke img {
+  width: 100%;
+  /* height: 23.91vw; */
+  padding-left: 3.91vw;
+}
+.block4 {
   display: block;
 }
-.PartyScroll1 {
-  width: 50vw;
-  height: 5vw;
-  background-image: url("../Images/PartyScroll1.svg");
-  animation: PartyScroll1 2s infinite linear;
-  background-size: 50vw;
+#Bar {
+  width: 100vw;
+  height: 41.64vw;
+  background-image: url("../Images/Bar.svg");
   background-repeat: no-repeat;
-  margin: 2vw;
+  background-size: 200vw;
+  animation: Bar 1s steps(2) infinite;
 }
-.Tasks {
-  width: 267px;
-  height: 117px;
-  background-image: url("../Images/Tasks.svg");
-  animation: Tasks 2s infinite steps(1);
-  background-repeat: no-repeat;
-  margin: 2vw;
+.block5 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 98.28vw;
+  justify-content: space-around;
 }
-.PrintTask {
-  width: 267px;
-  height: 29px;
-  background-image: url("../Images/PrintTask.svg");
-  animation: PrintTask 1.5s infinite steps(1);
+#StarBoxSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.64vw;
+  height: 21.6vw;
+  background-image: url("../Images/StarBoxSide.svg");
   background-repeat: no-repeat;
-  margin: 2vw;
+  background-size: 33.28vw 21.6vw;
+  animation: StarBoxSide 1s steps(2) infinite;
+  margin-top: 6vw;
 }
-.StarsFlash {
-  width: 385px;
-  height: 311px;
-  background-image: url("../Images/StarsFlash.svg");
-  animation: StarsFlash 1s infinite steps(1);
+#StarBoxCentre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.64vw;
+  height: 21.6vw;
+  background-image: url("../Images/StarBoxSide.svg");
   background-repeat: no-repeat;
-  margin: 2vw;
+  background-size: 33.28vw 21.6vw;
+  animation: StarBoxSide 1s steps(2) infinite;
+  margin-top: 18vw;
+}
+#Grid2 {
+  position: absolute;
+  width: 100vw;
+  height: 78.13vw;
+  background-image: url("../images/grid2.svg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+#StarRotate1 {
+  /* position: absolute;
+  top: 9.45vw;
+  left: 11.33vw; */
+  width: 10.55vw;
+  height: 10.55vw;
+  background-image: url("../Images/StarRotate1.svg");
+  background-size: 10.55vw;
+  background-repeat: no-repeat;
+  animation: StarRotate 3s linear infinite;
+}
+#StarRotate2 {
+  /* position: absolute;
+  top: 22.5vw;
+  left: 44.69vw; */
+  width: 10.55vw;
+  height: 10.55vw;
+  background-image: url("../Images/StarRotate2.svg");
+  background-size: 10.55vw;
+  background-repeat: no-repeat;
+  animation: StarRotate 3s linear reverse infinite;
+}
+#StarRotate3 {
+  /* position: absolute;
+  top: 9.45vw;
+  right: 11.33vw; */
+  width: 10.55vw;
+  height: 10.55vw;
+  background-image: url("../Images/StarRotate3.svg");
+  background-size: 10.55vw;
+  background-repeat: no-repeat;
+  animation: StarRotate 3s linear infinite;
+}
+#PlanetFinal {
+  position: absolute;
+  top: 48.44vw;
+  left: 12.89vw;
+  width: 74.22vw;
+  height: 49.84vw;
+  background-image: url("../Images/PlanetFinal.svg");
+  background-repeat: no-repeat;
+  background-size: 445.31vw;
+  animation: PlanetFinal 2s steps(6) infinite;
+}
+.Footer {
+  display: flex;
+  margin-bottom: 3vw;
+}
+#Footer1 {
+  width: 33.28vw;
+  height: 2.03vw;
+  background-image: url("../Images/Footer1.svg");
+  background-repeat: no-repeat;
+}
+#Footer2 {
+  width: 33.44vw;
+  height: 2.03vw;
+  background-image: url("../Images/Footer2.svg");
+  background-repeat: no-repeat;
+}
+#Footer3 {
+  width: 33.28vw;
+  height: 2.03vw;
+  background-image: url("../Images/Footer3.svg");
+  background-repeat: no-repeat;
+}
+#Star6 {
+  left: 6.36vw;
+}
+#Star7 {
+  left: 35.49vw;
+}
+#Star8 {
+  left: 66.56vw;
+}
+.FooterFinal {
+  display: flex;
+}
+#Footer4 {
+  width: 100vw;
+  height: 9.38vw;
+  background-image: url("../Images/Footer4.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+.runstroke1 {
+  width: 47.81vw;
+  height: 1.02vw;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 2vw;
+}
+#text1 {
+  position: absolute;
+  font-size: 0.7vw;
+  color: white;
+  width: 200%;
+  animation: runstroke1 10s infinite linear;
+  text-transform: uppercase;
+}
+.runstroke1.rotate {
+  transform: rotate(-90deg);
+  left: -23%;
+  top: 48.5%;
+}
+#GridMobile {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 95.47vw;
+  background-image: url("../images/GridMobile.svg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  z-index: 2;
 }

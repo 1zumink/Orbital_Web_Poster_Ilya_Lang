@@ -1,50 +1,193 @@
-@keyframes PartyScroll1 {
+@keyframes Stars {
   0% {
-    background-position-x: -20vw;
+    background-position: 0 0;
   }
   100% {
-    background-position-x: 20vw;
+    background-position: -8.13vw 0;
+  }
+}
+@keyframes Starcircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes NGbug {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100vw 0;
+  }
+}
+@keyframes NGbugMobile {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -100vw 0;
+  }
+}
+@keyframes sixstep {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -154.2vw 0;
+  }
+}
+@keyframes sixstepMobile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -308.4vw 0;
+  }
+}
+@keyframes Date {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -144.84vw 0;
+  }
+}
+@keyframes DateMobile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -300vw 0;
+  }
+}
+
+@keyframes Filters {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200vw 0;
+  }
+}
+@keyframes FiltersMobile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -400vw 0;
+  }
+}
+@keyframes circles1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -20.94vw 0;
+  }
+}
+@keyframes circles2 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -20.94vw 0;
+  }
+}
+@keyframes Bar {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200vw 0;
+  }
+}
+@keyframes StarRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes StarBoxSide {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -33.28vw 0;
+  }
+}
+@keyframes StarBoxCentre {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -33.28vw 0;
+  }
+}
+@keyframes PlanetFinal {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -445.31vw 0;
+  }
+}
+@keyframes runstroke1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes Planetstroke {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes PlanetstrokeMobile {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300%);
   }
 }
 @keyframes Tasks {
   0% {
-    background-position: 0px;
+    background-position: 0 0;
   }
-  40% {
-    background-position: -267px;
-  }
-  50% {
-    background-position: -534px;
-  }
-  60% {
-    background-position: -801px;
-  }
-  70% {
-    background-position: -1068px;
-  }
-  80% {
-    background-position: -1335px;
+  100% {
+    background-position: -125.16vw 0;
   }
 }
-@keyframes PrintTask {
+@keyframes TasksMobile {
   0% {
-    background-position: 0px;
+    background-position: 0 0;
   }
-  50% {
-    background-position: -267px;
+  100% {
+    background-position: -250.32vw 0;
   }
 }
 @keyframes StarsFlash {
   0% {
-    background-position: 0px;
+    background-position: 0 0;
   }
-  25% {
-    background-position: -385px;
+  100% {
+    background-position: -151.41vw 0;
   }
-  50% {
-    background-position: -770px;
+}
+@keyframes StarsFlashMobile {
+  0% {
+    background-position: 0 0;
   }
-  75% {
-    background-position: -1155px;
+  100% {
+    background-position: -302.82vw 0;
   }
 }

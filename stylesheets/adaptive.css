@@ -1,0 +1,139 @@
+@media screen and (max-width: 500px) {
+  .block1 {
+    flex-direction: column;
+  }
+  #NGbug {
+    width: 100vw;
+    height: 98vw;
+    background-size: 200vw;
+    animation: NGbugMobile 1s steps(1) infinite;
+  }
+  #Grid {
+    display: none;
+  }
+  /* #GridMobile {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 95.47vw;
+    background-image: url("../images/GridMobile.svg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    z-index: 2;
+  } */
+  #Starcircle {
+    width: 80vw;
+    height: 80vw;
+    background-size: 80vw;
+  }
+  #LavaLamp.LavaLamp2 img {
+    width: 100vw;
+    height: 50vw;
+    object-fit: cover;
+  }
+  #Planetstroke img {
+    width: 300%;
+    padding-left: 11.8vw;
+  }
+  #Planetstroke {
+    animation: PlanetstrokeMobile 5s linear infinite;
+  }
+  .runstroke1 {
+    width: 100vw;
+    height: 2vw;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #text1 {
+    position: absolute;
+    font-size: 1.4vw;
+    color: white;
+    width: 200%;
+    animation: runstroke1 10s infinite linear;
+    text-transform: uppercase;
+  }
+  #Star1 {
+    display: none;
+  }
+  .runstroke1.rotate {
+    transform: rotate(0deg);
+    left: 0;
+    top: 48.5%;
+  }
+
+  #TasksXStars {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 39.38vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vw;
+  }
+  #Tasks {
+    width: 41.72vw;
+    height: 37.66vw;
+    background-image: url("../Images/Tasks.svg");
+    background-repeat: no-repeat;
+    background-size: 250.32vw;
+    animation: TasksMobile 1s steps(6) infinite;
+    margin-bottom: 4vw;
+  }
+  #StarsFlash {
+    width: 50.46vw;
+    height: 37.96vw;
+    background-image: url("../Images/StarsFlash.svg");
+    background-repeat: no-repeat;
+    background-size: 302.82vw;
+    animation: StarsFlashMobile 1s steps(6) infinite;
+  }
+  .block2 {
+    flex-direction: column;
+  }
+  #PlanetsXLava {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 98.44vw;
+    margin-top: 17vw;
+  }
+  #LavaLamp img {
+    width: 50vw;
+    height: 95.32vw;
+  }
+  #LavaLamp {
+    margin: -0.5vw;
+  }
+  #PlanetsFound {
+    width: 51.56vw;
+    height: 95.32vw;
+    background-image: url("../Images/PlanetsFound.svg");
+    background-repeat: no-repeat;
+    background-size: 308.4vw;
+    animation: sixstepMobile 1.5s steps(6) infinite;
+  }
+  #Filters {
+    width: 100vw;
+    height: 95.32vw;
+    background-image: url("../Images/Filters.svg");
+    background-repeat: no-repeat;
+    background-size: 400vw;
+    animation: FiltersMobile 1s steps(4) infinite;
+  }
+  #Date {
+    position: absolute;
+    width: 100vw;
+    height: 30vw;
+    background-image: url("../Images/Date.svg");
+    background-repeat: no-repeat;
+    background-size: 300vw;
+    animation: DateMobile 1s steps(3) infinite;
+    top: 196.78vw;
+
+    left: 0;
+    z-index: 1;
+  }
+}
