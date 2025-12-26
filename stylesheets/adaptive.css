@@ -15,11 +15,12 @@
     display: block;
     position: absolute;
     width: 100vw;
-    height: 95.47vw;
-    background-image: url("../images/GridMobile.svg");
+    height: 198.44vw;
+    background-image: url("../Images/GridMobile.svg");
     background-size: 100vw;
     background-repeat: no-repeat;
     z-index: 2;
+    top: -87vw;
   }
   #Starcircle {
     width: 80vw;
@@ -28,7 +29,7 @@
   }
   #LavaLamp.LavaLamp2 img {
     width: 100vw;
-    height: 50vw;
+    height: 40vw;
     object-fit: cover;
   }
   #Planetstroke img {
@@ -61,7 +62,7 @@
   .runstroke1.rotate {
     transform: rotate(0deg);
     left: 0;
-    top: 48.5%;
+    top: 51.5%;
   }
 
   #TasksXStars {
@@ -143,5 +144,71 @@
     background-repeat: no-repeat;
     background-size: 200vw;
     animation: BarMobile 1s steps(2) infinite;
+  }
+  .block5 {
+    position: relative;
+    display: flex;
+    height: 265.63vw;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #StarBoxSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.28vw;
+    height: 43.2vw;
+    background-image: url("../Images/StarBoxSide.svg");
+    background-repeat: no-repeat;
+    background-size: 66.56vw 43.2vw;
+    animation: StarBoxSideMobile 1s steps(2) infinite;
+    margin-top: 0vw;
+    margin-left: 50vw;
+  }
+  #StarBoxCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.28vw;
+    height: 43.2vw;
+    background-image: url("../Images/StarBoxSide.svg");
+    background-repeat: no-repeat;
+    background-size: 66.56vw 43.2vw;
+    animation: StarBoxSideMobile 1s steps(2) infinite reverse;
+    margin-top: 0vw;
+    margin-left: 10vw;
+  }
+  #StarRotate1 {
+    width: 21.1vw;
+    height: 21.1vw;
+    background-image: url("../Images/StarRotate1.svg");
+    background-size: 21.1vw;
+    background-repeat: no-repeat;
+    animation: StarRotate 3s linear infinite;
+  }
+  #StarRotate2 {
+    width: 21.1vw;
+    height: 21.1vw;
+    background-image: url("../Images/StarRotate2.svg");
+    background-size: 21.1vw;
+    background-repeat: no-repeat;
+    animation: StarRotate 3s linear reverse infinite;
+  }
+  #StarRotate3 {
+    width: 21.1vw;
+    height: 21.1vw;
+    background-image: url("../Images/StarRotate3.svg");
+    background-size: 21.1vw;
+    background-repeat: no-repeat;
+    animation: StarRotate 3s linear infinite;
+  }
+  #Grid2 {
+    position: absolute;
+    width: 100vw;
+    height: 198.44vw;
+    background-image: url("../Images/GridMobile2.svg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    top: 0;
   }
 }

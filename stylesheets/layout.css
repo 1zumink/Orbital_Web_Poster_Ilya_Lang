@@ -89,7 +89,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 95.47vw;
-  background-image: url("../images/Grid1PC.svg");
+  background-image: url("../Images/Grid1PC.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
   z-index: 2;
@@ -135,7 +135,7 @@ body {
   position: absolute;
   width: 2.03vw;
   height: 2.03vw;
-  background-image: url("../images/StarsShrink.svg");
+  background-image: url("../Images/StarsShrink.svg");
   background-repeat: no-repeat;
   background-size: 8.13vw;
   animation: Stars 1s steps(4) infinite;
@@ -235,21 +235,18 @@ body {
   background-image: url("../Images/StarBoxSide.svg");
   background-repeat: no-repeat;
   background-size: 33.28vw 21.6vw;
-  animation: StarBoxSide 1s steps(2) infinite;
+  animation: StarBoxSide 1s steps(2) infinite reverse;
   margin-top: 18vw;
 }
 #Grid2 {
   position: absolute;
   width: 100vw;
   height: 78.13vw;
-  background-image: url("../images/Grid2PC.svg");
+  background-image: url("../Images/Grid2PC.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
 }
 #StarRotate1 {
-  /* position: absolute;
-  top: 9.45vw;
-  left: 11.33vw; */
   width: 10.55vw;
   height: 10.55vw;
   background-image: url("../Images/StarRotate1.svg");
@@ -258,9 +255,6 @@ body {
   animation: StarRotate 3s linear infinite;
 }
 #StarRotate2 {
-  /* position: absolute;
-  top: 22.5vw;
-  left: 44.69vw; */
   width: 10.55vw;
   height: 10.55vw;
   background-image: url("../Images/StarRotate2.svg");
@@ -269,9 +263,6 @@ body {
   animation: StarRotate 3s linear reverse infinite;
 }
 #StarRotate3 {
-  /* position: absolute;
-  top: 9.45vw;
-  right: 11.33vw; */
   width: 10.55vw;
   height: 10.55vw;
   background-image: url("../Images/StarRotate3.svg");

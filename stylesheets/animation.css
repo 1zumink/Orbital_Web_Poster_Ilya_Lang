@@ -127,6 +127,14 @@
     background-position: -33.28vw 0;
   }
 }
+@keyframes StarBoxSideMobile {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -66.56vw 0;
+  }
+}
 @keyframes StarBoxCentre {
   0% {
     background-position: 0 0;
@@ -135,6 +143,7 @@
     background-position: -33.28vw 0;
   }
 }
+
 @keyframes PlanetFinal {
   0% {
     background-position: 0 0;
