@@ -136,4 +136,12 @@
     left: 0;
     z-index: 1;
   }
+  #Bar {
+    width: 100vw;
+    height: 163.13vwvw;
+    background-image: url("../Images/BarMobile.svg");
+    background-repeat: no-repeat;
+    background-size: 200vw;
+    animation: Bar 1s steps(2) infinite;
+  }
 }
