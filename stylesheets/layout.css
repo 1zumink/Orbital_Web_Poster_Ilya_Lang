@@ -89,7 +89,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 95.47vw;
-  background-image: url("../images/Grid1.svg");
+  background-image: url("../images/Grid1PC.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
   z-index: 2;
@@ -135,7 +135,7 @@ body {
   position: absolute;
   width: 2.03vw;
   height: 2.03vw;
-  background-image: url("../images/Stars.svg");
+  background-image: url("../images/StarsShrink.svg");
   background-repeat: no-repeat;
   background-size: 8.13vw;
   animation: Stars 1s steps(4) infinite;
@@ -242,7 +242,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 78.13vw;
-  background-image: url("../images/grid2.svg");
+  background-image: url("../images/Grid2PC.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
 }
