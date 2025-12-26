@@ -66,6 +66,7 @@
   }
 
   #TasksXStars {
+    margin-left: 2vw;
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -75,6 +76,7 @@
     margin-top: 8vw;
   }
   #Tasks {
+    margin-left: 1vw;
     width: 41.72vw;
     height: 37.66vw;
     background-image: url("../Images/Tasks.svg");
@@ -84,6 +86,7 @@
     margin-bottom: 4vw;
   }
   #StarsFlash {
+    margin-left: 4vw;
     width: 50.46vw;
     height: 37.96vw;
     background-image: url("../Images/StarsFlash.svg");
@@ -99,11 +102,11 @@
     flex-direction: row-reverse;
     width: 100vw;
     height: 98.44vw;
-    margin-top: 17vw;
+    margin-top: 14vw;
   }
   #LavaLamp img {
-    width: 50vw;
-    height: 95.32vw;
+    width: 51vw;
+    height: 97.32vw;
   }
   #LavaLamp {
     margin: -0.5vw;
@@ -239,6 +242,7 @@
     flex-direction: column;
     margin-bottom: 3vw;
     margin-top: 20vw;
+    position: relative;
   }
   #Footer1 {
     width: 66.56vw;
@@ -286,15 +290,19 @@
   }
   #Star2 {
     right: 2vw;
+    left: unset;
   }
   #Star3 {
     right: 6vw;
+    left: unset;
   }
   #Star4 {
     right: 45vw;
+    left: unset;
   }
   #Star5 {
     right: 41vw;
+    left: unset;
   }
   #Star4,
   #Star5 {
@@ -321,5 +329,72 @@
     background-repeat: no-repeat;
     background-size: 41.88vw;
     animation: circles2Mobile 1s steps(4) infinite;
+  }
+  #Star6 {
+    position: absolute;
+    left: 6.36vw;
+  }
+  #Star7 {
+    position: absolute;
+    left: 6.36vw;
+    top: 4.06vw;
+  }
+  #Star8 {
+    position: absolute;
+    left: 6.36vw;
+    top: 8.12vw;
+  }
+  #Star9,
+  #Star10,
+  #Star11,
+  #Star12,
+  #Star13,
+  #Star14 {
+    display: block;
+    position: absolute;
+    width: 16.24vw;
+    height: 16.24vw;
+    background-image: url("../Images/StarsShrink.svg");
+    background-repeat: no-repeat;
+    background-size: 65.04vw;
+    animation: StarsMobileBig 1s steps(4) infinite;
+  }
+  #Star9,
+  #Star10 {
+    top: 13vw;
+  }
+  #Star9 {
+    right: 37vw;
+  }
+  #Star10 {
+    right: 54vw;
+  }
+  #Star11,
+  #Star12 {
+    top: 82vw;
+  }
+  #Star11 {
+    left: 50vw;
+  }
+  #Star12 {
+    left: 67vw;
+  }
+  #Star13,
+  #Star14 {
+    top: 159vw;
+  }
+  #Star13 {
+    right: 37vw;
+  }
+  #Star14 {
+    right: 54vw;
+  }
+  #Line {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 1.25vw;
+    background-image: url("../Images/Line.svg");
+    bottom: 0vw;
   }
 }
