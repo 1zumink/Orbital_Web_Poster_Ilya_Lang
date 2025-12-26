@@ -214,7 +214,19 @@ body {
   height: 98.28vw;
   justify-content: space-around;
 }
-#StarBoxSide {
+#StarBoxSide1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16.64vw;
+  height: 21.6vw;
+  background-image: url("../Images/StarBoxSide.svg");
+  background-repeat: no-repeat;
+  background-size: 33.28vw 21.6vw;
+  animation: StarBoxSide 1s steps(2) infinite;
+  margin-top: 6vw;
+}
+#StarBoxSide2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -290,18 +302,21 @@ body {
   height: 2.03vw;
   background-image: url("../Images/Footer1.svg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 #Footer2 {
   width: 33.44vw;
   height: 2.03vw;
   background-image: url("../Images/Footer2.svg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 #Footer3 {
   width: 33.28vw;
   height: 2.03vw;
   background-image: url("../Images/Footer3.svg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 #Star6 {
   left: 6.36vw;
@@ -353,4 +368,7 @@ body {
   background-size: 100vw;
   background-repeat: no-repeat;
   z-index: 2;
+}
+#GlovMobile {
+  display: none;
 }

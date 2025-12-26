@@ -150,9 +150,8 @@
     display: flex;
     height: 265.63vw;
     flex-direction: column;
-    justify-content: space-around;
   }
-  #StarBoxSide {
+  #StarBoxSide1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,8 +161,21 @@
     background-repeat: no-repeat;
     background-size: 66.56vw 43.2vw;
     animation: StarBoxSideMobile 1s steps(2) infinite;
-    margin-top: 0vw;
-    margin-left: 50vw;
+    margin-top: -15vw;
+    margin-left: 62vw;
+  }
+  #StarBoxSide2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.28vw;
+    height: 43.2vw;
+    background-image: url("../Images/StarBoxSide.svg");
+    background-repeat: no-repeat;
+    background-size: 66.56vw 43.2vw;
+    animation: StarBoxSideMobile 1s steps(2) infinite;
+    margin-bottom: 63vw;
+    margin-left: 62vw;
   }
   #StarBoxCentre {
     display: flex;
@@ -175,7 +187,7 @@
     background-repeat: no-repeat;
     background-size: 66.56vw 43.2vw;
     animation: StarBoxSideMobile 1s steps(2) infinite reverse;
-    margin-top: 0vw;
+    margin-top: -3vw;
     margin-left: 10vw;
   }
   #StarRotate1 {
@@ -210,5 +222,63 @@
     background-size: 100vw;
     background-repeat: no-repeat;
     top: 0;
+  }
+  #GlowMobile {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 84.38vw;
+    background-image: url("../Images/GlowMobile.svg");
+    background-size: 100vw;
+    top: 170vw;
+  }
+  #PlanetFinal {
+    top: 230vw;
+  }
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vw;
+    margin-top: 20vw;
+  }
+  #Footer1 {
+    width: 66.56vw;
+    height: 4.06vw;
+    background-image: url("../Images/Footer1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10vw;
+  }
+  #Footer2 {
+    width: 66.88vw;
+    height: 4.06vw;
+    background-image: url("../Images/Footer2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1.2vw;
+  }
+  #Footer3 {
+    width: 66.56vw;
+    height: 4.06vw;
+    background-image: url("../Images/Footer3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 7vw;
+  }
+  #Star1,
+  #Star2,
+  #Star3,
+  #Star4,
+  #Star5,
+  #Star6,
+  #Star7,
+  #Star8 {
+    position: absolute;
+    width: 2.03vw;
+    height: 2.03vw;
+    background-image: url("../Images/StarsShrink.svg");
+    background-repeat: no-repeat;
+    background-size: 8.13vw;
+    animation: Stars 1s steps(4) infinite;
   }
 }
