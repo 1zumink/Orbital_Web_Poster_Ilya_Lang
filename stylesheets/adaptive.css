@@ -41,7 +41,7 @@
   }
   .runstroke1 {
     width: 100vw;
-    height: 2vw;
+    height: 4vw;
     display: flex;
     overflow: hidden;
     position: absolute;
@@ -50,11 +50,12 @@
   }
   #text1 {
     position: absolute;
-    font-size: 1.4vw;
+    font-size: 3.4vw;
     color: white;
-    width: 200%;
+    width: 173vw;
     animation: runstroke1 10s infinite linear;
     text-transform: uppercase;
+    line-height: 5vw;
   }
   #Star1 {
     display: none;
@@ -62,7 +63,7 @@
   .runstroke1.rotate {
     transform: rotate(0deg);
     left: 0;
-    top: 51.5%;
+    top: 50.5%;
   }
 
   #TasksXStars {
